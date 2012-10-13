@@ -1,0 +1,10 @@
+opam-version: "1"
+maintainer: "y1ban@gmail.com"
+build: [
+  ["make"]
+  ["make" "install"]
+]
+remove: [
+  ["make" "uninstall"]
+]
+depends: ["batteries"]
